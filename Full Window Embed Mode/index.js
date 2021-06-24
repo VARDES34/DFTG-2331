@@ -31,7 +31,7 @@ document.addEventListener("adobe_dc_view_sdk.ready", function () {
         content: {
             /* Location of file where it is hosted */
             location: {
-                url: "https://drive.google.com/file/d/1UWzZ83R3xM4rRxJjo5YB9DXwcU1w_L7s/view?usp=sharing",
+                url: "https://drive.google.com/file/d/1UWzZ83R3xM4rRxJjo5YB9DXwcU1w_L7s",
                 /*
                 If the file URL requires some additional headers, then it can be passed as follows:-
                 headers: [
