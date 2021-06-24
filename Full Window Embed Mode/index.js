@@ -20,7 +20,7 @@ document.addEventListener("adobe_dc_view_sdk.ready", function () {
     /* Initialize the AdobeDC View object */
     var adobeDCView = new AdobeDC.View({
         /* Pass your registered client id */
-        clientId: "<YOUR_CLIENT_ID>",
+        clientId: "<5cd4cc41d1444314a37c586e7bbb5e11>",
         /* Pass the div id in which PDF should be rendered */
         divId: "adobe-dc-view",
     });
@@ -31,7 +31,7 @@ document.addEventListener("adobe_dc_view_sdk.ready", function () {
         content: {
             /* Location of file where it is hosted */
             location: {
-                url: "https://documentcloud.adobe.com/view-sdk-demo/PDFs/Bodea Brochure.pdf",
+                url: "https://drive.google.com/file/d/1UWzZ83R3xM4rRxJjo5YB9DXwcU1w_L7s/view?usp=sharing",
                 /*
                 If the file URL requires some additional headers, then it can be passed as follows:-
                 headers: [
@@ -46,7 +46,7 @@ document.addEventListener("adobe_dc_view_sdk.ready", function () {
         /* Pass meta data of file */
         metaData: {
             /* file name */
-            fileName: "Bodea Brochure.pdf"
+            fileName: "3D-model-2331.pdf"
         }
     }, viewerConfig);
 });
